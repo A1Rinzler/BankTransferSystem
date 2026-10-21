@@ -1,4 +1,4 @@
-package ru.dmitrii.aston.Conncetion;
+package ru.dmitrii.aston.Connection;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -14,5 +14,5 @@ public class HibernateSession {
     public static SessionFactory getSessionFactory(){
         return sessionFactory;
     }
-    
+
 }
