@@ -1,5 +1,6 @@
 package ru.dmitrii.aston.DAO;
 
+import jakarta.persistence.Column;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import ru.dmitrii.aston.Model.BankAccount;
@@ -39,5 +40,9 @@ public class BankAccountDAO {
 
 
         return Optional.of(balance);
+    }
+
+    public void newAccountholder( String accountHolder, BigDecimal balance, String currency ){
+
     }
 }
